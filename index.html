@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ta-Te-Ti</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaQueries.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="./img/ta-te-ti.ico" type="image/x-icon" />
+</head>
+<body data-aos="fade-up">
+    <a href="index.html"><input type="button" value="Volver" id="btn-volver"></a>
+    <h1>Ta-Te-Ti</h1>
+    <div id="container-estado">
+    <h2 id="tablero-victoria"></h2><br>
+    <input type="button" value="Reiniciar" id="btn-reiniciar" class="boton-elegir" style="display: none;">
+    </div>
+    <br>
+
+    <div id="elegir">
+    <h1>Elige como quieres jugar</h1>
+    <input id="bot-btn" type="button" value="Contra Bot" class="boton-elegir">
+    <input id= "vs-btn" type="button" value="1 vs 1" class="boton-elegir">
+    </div>
+
+    <div id="tablero" style="display: none;">
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+    </div>
+
+    <script src="./js/bot.js"></script>
+    <script src="./js/1vs1.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

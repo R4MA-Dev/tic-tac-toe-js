@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: monospace;
+}
+
+input{
+    font-family: monospace;
+}
+
+input:hover{
+    transition: transform 0.3s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#btn-volver{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    margin-top: -10px;
+    margin-left: 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h1{
+    font-size: 3.5em;
+}
+
+h2{
+    font-size: 2.5em;
+}
+
+#container-estado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#tablero-victoria{
+    font-size: 45px;
+}
+
+#elegir{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.boton-elegir{
+    width: 200px;
+    height: 90px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+#bot-btn{
+    background-color: red;
+    color: white;
+}
+
+#vs-btn{
+    background-color: blue;
+    color: white;
+}
+
+#btn-reiniciar{
+    background-color: rgb(198, 31, 198);
+    color: white;
+}
+
+#tablero{
+    margin: auto;
+    width: 750px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tablero>button{
+    width: 250px;
+    height: 250px;
+    max-width: 33,33%;
+    font-size: 10em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
